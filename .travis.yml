@@ -8,11 +8,11 @@ branches:
   only:
     - master
 
-deploy:
-  provider: heroku
-  app: "ci-thl"
-  api_key:
-    secure: "5c40e52d-67e0-4f0e-aa1b-098150054397"
+#deploy:
+#  provider: heroku
+#  app: "ci-thl"
+#  api_key:
+#    secure: "5c40e52d-67e0-4f0e-aa1b-098150054397"
 
 after_success:
   - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
