@@ -1,3 +1,15 @@
+# Factory line manager
+[![Travis][build-badge]][build]
+[![Coveralls][coveralls-badge]][coveralls]
+
+Awesome factory line manager!
+
+[build-badge]: https://img.shields.io/travis/TehnoLine/ci/master.png?style=flat-square
+[build]: https://travis-ci.org/TehnoLine/ci
+
+[coveralls-badge]: https://img.shields.io/coveralls/TehnoLine/ci/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/TehnoLine/ci
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
